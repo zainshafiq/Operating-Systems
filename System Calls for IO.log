@@ -1,0 +1,58 @@
+Script started on 2018-06-14 05:40:27-0600
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ ls -l
+total 24
+-rw-r--r-- 1 shafiqzain shafiqzain     0 Jun 14 05:40 Lab5.log
+-rwxr-xr-x 1 shafiqzain shafiqzain 12816 Jun 14 05:38 [0m[01;32mopenClose[0m
+-rw-r--r-- 1 shafiqzain shafiqzain  1790 Jun 14 05:35 openClose.cpp
+-rw-r--r-- 1 shafiqzain shafiqzain   543 Jun 14 01:32 openClose.in
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ cat openClose.in
+perror()
+
+In most cases, if a system call or library function fails, it returns a value of -1 and assigns a value to an external variable called errno. This value indicates where the actual problem occurred.
+
+It is a good programming habit to examine the return value from a system call or library function to determine if something went wrong. If there was a failure, the program should do something such as display a short error message and exit (terminate) the program. The library function perror can be used to produce an error message.
+
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ ope[K[K[K./openClose
+Usage: openClose <inFile> <outFile>
+n_char = 0 	 errno = 0
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ ./openClose openCLos[K[K[Klose.in
+Usage: openClose <inFile> <outFile>
+n_char = 0 	 errno = 0
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ ./openClose noSuchFile openClose .out
+open: No such file or directory
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ ./openClose noSuchFile openClose..out[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce openClose.o[1Put[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce openClose.ou[1Pt[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce openClose.out[K[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce openClose.out [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P openClose.outo openClose.outp openClose.oute openClose.outn openClose.outC openClose.outL openClose.out [A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co openClose.outt[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs openClose.out[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C openClose.out[K[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C openClose.out [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P openClose.out
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl openClose.out [A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co openClose.outt[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs openClose.out[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce openClose.out[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. openClose.out[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ci openClose.out[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn openClose.out[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+This is the status of openClose.out
+File Size:		543
+Owner:		1000
+Group ID:		1000
+Last Modified:		1528961520
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ ls -l
+total 32
+-rw-r--r-- 1 shafiqzain shafiqzain  4096 Jun 14 05:41 Lab5.log
+-rwxr-xr-x 1 shafiqzain shafiqzain 12816 Jun 14 05:38 [0m[01;32mopenClose[0m
+-rw-r--r-- 1 shafiqzain shafiqzain  1790 Jun 14 05:35 openClose.cpp
+-rw-r--r-- 1 shafiqzain shafiqzain   543 Jun 14 01:32 openClose.in
+-rw-r--r-- 1 shafiqzain shafiqzain   543 Jun 14 05:41 openClose.out
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ cat openCLos[K[K[Klose.out
+perror()
+
+In most cases, if a system call or library function fails, it returns a value of -1 and assigns a value to an external variable called errno. This value indicates where the actual problem occurred.
+
+It is a good programming habit to examine the return value from a system call or library function to determine if something went wrong. If there was a failure, the program should do something such as display a short error message and exit (terminate) the program. The library function perror can be used to produce an error message.
+
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ openClose [K[K[K[K[K[K[K[K[K[K./openCLose [K[K[K[K[Klose openCLos[K[K[Klose.in openClo se.out
+This is the status of openClose.out
+File Size:		543
+Owner:		1000
+Group ID:		1000
+Last Modified:		1528961520
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ ./openClose openClose.in openClosse.out[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/openClose.out[A]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+open: Permission denied
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab5[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab5[00m$ exit
+exit
+
+Script done on 2018-06-14 05:43:27-0600

@@ -1,0 +1,50 @@
+Script started on 2018-06-14 08:37:46-0600
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ ls-[K -l
+total 24
+-rw-r--r-- 1 shafiqzain shafiqzain    0 Jun 14 08:37 Lab6.log
+-rw-r--r-- 1 shafiqzain shafiqzain  111 Jun 14 08:24 lab.txt
+-rwxr-xr-x 1 shafiqzain shafiqzain 8560 Jun 14 08:36 [0m[01;32mmytee[0m
+-rw-r--r-- 1 shafiqzain shafiqzain 1426 Jun 14 08:36 mytee.cpp
+drwxr-xr-x 2 shafiqzain shafiqzain 4096 Jun 14 08:23 [01;34mPart1[0m
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ cat lab.txt
+Signals Records
+Cs330 Midterm
+
+Door
+Cat
+
+AI
+Pipes Rule
+Management Information Systems
+Child Parent GrandParent
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ m[K./mytee
+Error~ Not enough arguments!
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ ./mytee lab.txt
+Error~ Not enough arguments!
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ ./mytee lab.txt lab~.txt
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ ls[K[Kcat lab~.txt
+cat: lab~.txt: No such file or directory
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ ls
+Lab6.log  lab.txt  [0m[01;32mmytee[0m  mytee.cpp  [01;34mPart1[0m
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ gedit lab/[K[K[K[Kmytee.cpp
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ gedit mytee.cppls[Kcat lab~.txt[12@./mytee lab.tx[C[C[C[C[C[C[C[C[C[C[K[Kcat lab.txt[6Pls -l[1Pexit./myteeg++ mytee.cpp -o mytee
+[01m[Kmytee.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmytee.cpp:24:64:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K-Wformat-extra-args[m[K]
+         fprintf(stderr, "Error~ Not enough arguments!\n", *argv[01;35m[K)[m[K;
+                                                                [01;35m[K^[m[K
+[01m[Kmytee.cpp:51:25:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar**[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K-fpermissive[m[K]
+       open(argv[0], argv[01;31m[K)[m[K;
+                         [01;31m[K^[m[K
+In file included from [01m[Kmytee.cpp:7:0[m[K:
+[01m[K/usr/include/fcntl.h:157:12:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kint open(const char*, int, ...)[m[K’
+ extern int [01;36m[Kopen[m[K (const char *__file, int __oflag, ...) __nonnull ((1));
+            [01;36m[K^~~~[m[K
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ g++ mytee.cpp -o mytee[7Pedit mytee.cppls[Kgedit mytee.cppls[Kcat lab~.txt[12@./mytee lab.tx[C[C[C[C[C[C[C[C[C[C
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ ls[K[Kcat lab~.txt
+cat: lab~.txt: No such file or directory
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ ls
+Lab6.log  lab.txt  [0m[01;32mmytee[0m  mytee.cpp  [01;34mPart1[0m
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab6[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab6[00m$ exit
+exit
+
+Script done on 2018-06-14 08:40:58-0600

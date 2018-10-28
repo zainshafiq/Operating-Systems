@@ -1,0 +1,64 @@
+Script started on 2018-05-17 04:39:30-0600
+]0;shafiqzain@shafiqzain-X450CC: ~[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~[00m$ mkdir CS330[K[K[K[K[KCS330
+]0;shafiqzain@shafiqzain-X450CC: ~[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~[00m$ ls
+[0m[01;34mCS330[0m      [01;34mDownloads[0m         labAssgn2.log  [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDesktop[0m    examples.desktop  [01;34mMusic[0m          [01;34msnap[0m
+[01;34mDocuments[0m  labAssgn2         [01;34mPictures[0m       [01;34mTemplates[0m
+]0;shafiqzain@shafiqzain-X450CC: ~[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~[00m$ cd CS##[K[K330
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330[00m$ cd[K[Kmkdir Lab1[Ks
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330[00m$ cd Labs[K[K[K[K[K[K[Kls
+[0m[01;34mLabs[0m
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330[00m$ m[Kcd Labs
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs[00m$ mkdir Lab 1[K[K1
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs[00m$ c[Kls
+[0m[01;34mLab1[0m
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs[00m$ cd Lab1
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1[00m$ mkdir Unix Code[K[K[K[K[K
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1[00m$ mkdir Code
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1[00m$ cd U[K[K[K[Kls
+[0m[01;34mCode[0m  [01;34mUnix[0m
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1[00m$ cd UNIX[K[K[Knix
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ touch one
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ touch two
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ touch three
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ ls
+one  three  two
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ ls -l
+total 0
+-rw-r--r-- 1 shafiqzain shafiqzain 0 May 17 04:44 one
+-rw-r--r-- 1 shafiqzain shafiqzain 0 May 17 04:44 three
+-rw-r--r-- 1 shafiqzain shafiqzain 0 May 17 04:44 two
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ mkdir BAK
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ cp three [C[C[C B A K / t h r e e . b a k 
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ cd BAK
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix/BAK[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix/BAK[00m$ ls -l
+total 0
+-rw-r--r-- 1 shafiqzain shafiqzain 0 May 17 04:50 three.bak
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix/BAK[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix/BAK[00m$ cd
+]0;shafiqzain@shafiqzain-X450CC: ~[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~[00m$ rm BAK[K[K[K[K[K[Kls
+[0m[01;34mCS330[0m      [01;34mDownloads[0m         labAssgn2.log  [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDesktop[0m    examples.desktop  [01;34mMusic[0m          [01;34msnap[0m
+[01;34mDocuments[0m  labAssgn2         [01;34mPictures[0m       [01;34mTemplates[0m
+]0;shafiqzain@shafiqzain-X450CC: ~[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~[00m$ rm BAK
+rm: cannot remove 'BAK': No such file or directory
+]0;shafiqzain@shafiqzain-X450CC: ~[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~[00m$ c[Kcd CS330
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330[00m$ cd Labs
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs[00m$ cd LAb[K[Kab1
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1[00m$ ls
+[0m[01;34mCode[0m  [01;34mUnix[0m
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1[00m$ cd Unix
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ ls
+[0m[01;34mBAK[0m  one  three  two
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ rm BAK
+rm: cannot remove 'BAK': Is a directory
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ kill -9 BAK
+bash: kill: BAK: arguments must be process or job IDs
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ rm -r BAK
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ ls
+one  three  two
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ lo
+lo: command not found
+]0;shafiqzain@shafiqzain-X450CC: ~/CS330/Labs/Lab1/Unix[01;32mshafiqzain@shafiqzain-X450CC[00m:[01;34m~/CS330/Labs/Lab1/Unix[00m$ exit
+exit
+
+Script done on 2018-05-17 04:53:39-0600
